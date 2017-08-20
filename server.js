@@ -12,7 +12,7 @@ app.get('/MySecondPage', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'MySecondPage.html'));
 });
 app.get('/MyThirdPage', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'myThirdPage.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'MyThirdPage.html'));
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
